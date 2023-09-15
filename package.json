@@ -1,0 +1,14 @@
+{
+  "name": "jsonserver",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+		"build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  }
+}
